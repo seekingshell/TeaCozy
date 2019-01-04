@@ -1,0 +1,155 @@
+body {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+/* Universal Styles */
+.content {
+  display: inline-flex;
+  flex-flow: column wrap;
+}
+
+h2, h4 {
+  margin: 10px auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 69px;
+  background-color: inherit;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: inline-flex;
+  flex-grow: 1;
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+nav a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  margin-top: 69px;
+
+}
+
+/* Mission */
+#mission {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: url("../images/img-mission-background.jpg");
+  max-width: 1200px;
+  height: 700px;
+  margin-bottom: 25px;
+}
+
+.content.mission {
+  background-color: black;
+  opacity: 1;
+}
+
+/* Tea */
+#tea {
+  position: relative;
+  margin: 25px auto;
+}
+
+.tea-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin-top: 5px;
+}
+
+.content.tea-item {
+  margin: 10px 15px;
+}
+
+.tea-item img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Location */
+#location {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("../images/img-locations-background.jpg");
+  max-width: 1200px;
+  min-height: 500px;
+}
+
+#location h2 {
+  margin-bottom: 15px;
+}
+
+#location h3 {
+  margin: 0 auto;
+}
+
+.location-list {
+  diplay: flex;
+  flex-flow: row wrap;
+}
+
+.content.location-item {
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  margin: 0 20px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  background-color: inherit;
+}
+.info {
+  height: 200px;
+}
+
+.info h2 {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
