@@ -71,7 +71,7 @@ main {
   background: url("../images/img-mission-background.jpg");
   max-width: 1200px;
   height: 700px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .content.mission {
@@ -82,7 +82,13 @@ main {
 /* Tea */
 #tea {
   position: relative;
-  margin: 25px auto;
+  margin-bottom: 50px;
+  background-color: inherit;
+}
+
+#tea:target {
+  padding-top: 69px;
+  margin-top: -69px;
 }
 
 .tea-list {
@@ -110,6 +116,7 @@ main {
   align-items: center;
   position: relative;
   background: url("../images/img-locations-background.jpg");
+  background-size: cover;
   max-width: 1200px;
   min-height: 500px;
 }
